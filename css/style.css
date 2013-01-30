@@ -1,0 +1,194 @@
+/* ozh.org stylesheet */
+
+body {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	color      : #111;
+	background : #669;
+	text-align : center;
+
+	background-image: linear-gradient(bottom, rgb(102,102,153) 24%, rgb(136,136,170) 62%, rgb(102,102,153) 81%);
+	background-image: -o-linear-gradient(bottom, rgb(102,102,153) 24%, rgb(136,136,170) 62%, rgb(102,102,153) 81%);
+	background-image: -moz-linear-gradient(bottom, rgb(102,102,153) 24%, rgb(136,136,170) 62%, rgb(102,102,153) 81%);
+	background-image: -webkit-linear-gradient(bottom, rgb(102,102,153) 24%, rgb(136,136,170) 62%, rgb(102,102,153) 81%);
+	background-image: -ms-linear-gradient(bottom, rgb(102,102,153) 24%, rgb(136,136,170) 62%, rgb(102,102,153) 81%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.24, rgb(102,102,153)),
+		color-stop(0.62, rgb(136,136,170)),
+		color-stop(0.81, rgb(102,102,153))
+	);	
+}
+
+#container {
+	text-align : left;
+	margin     : 0 auto;
+	width      : 795px;
+	padding-top: 4px;
+	overflow   : hidden;
+}
+
+#footer {
+	width:795px;
+	margin:0 auto;
+	color:#333;
+}
+
+h1 {
+	background : #EEBB00;
+	color      : white;
+	font-size  : 270%;
+	line-height: 100%;
+	height     : 100%;
+	width      : 100%;
+}
+
+h2 {
+	background : #A59DDF;
+	color      : white;
+	font-size  : 220%;
+	line-height: 110%;
+	height     : 100%;
+	width      : 100%;
+}
+
+h3 {
+	font-size    : 150%;
+	margin-bottom: 20px;
+}
+
+#plugindevbook h3 { margin-bottom:0px; }
+
+h1 span, h2 span {padding:5px; display:block;}
+
+#smiley { display:inline; }
+
+#smiley:hover {color:#EEBB00; display:inline;}
+
+.hideme{ display: none; }
+
+div.slidebox {
+	width           : 250px;
+	height          : 187px;
+	position        : relative;
+	float           : left;
+	overflow        : hidden;
+	margin          : 4px;
+	background-color: #8080bf;
+	background-color: #605F88;
+}
+
+span.highlight {
+	background           : #9191d9;
+	padding              : 0px 4px;
+	-moz-border-radius   : 9px;
+	-khtml-border-radius : 9px;
+	-webkit-border-radius: 9px;
+	border-radius        : 3px;
+}
+
+div.slidebox a, div.slidebox a:visited {
+	text-decoration: none;
+	color          : white;
+}
+
+div.slidebox a:hover { text-decoration: underline; }
+
+div.slidebox h3, div.slidebox h3 a { color:white; }
+
+div.slidebox .slide {
+	position: absolute;
+	z-index : 2;
+	display : block;
+	width   : 100%;
+	height  : 100%;
+	cursor  : pointer;
+}
+
+div.slidebox, div.slidebox .slide, div.slidebox .content {
+	-moz-border-radius   : 9px;
+	-khtml-border-radius : 9px;
+	-webkit-border-radius: 9px;
+	border-radius        : 9px;
+}
+	
+div.slidebox div.content {
+	position  : absolute;
+	z-index   : 1;
+	cursor    : default;
+	font-size : 120%;
+	padding   : 10px;
+	color     : white;
+	height    : 165px;
+	width     : 228px;
+	background: transparent url(../img/bg.png) top left no-repeat;
+}
+
+div.slidebox div.content p.visit a, div.slidebox div.content p.visit a:visited, a.visit, a.visit:visited {
+	background           : #4D4D73;
+	color                : white;
+	padding              : 3px 9px;
+	font-weight          : bolder;
+	-moz-border-radius   : 3px;
+	-khtml-border-radius : 3px;
+	-webkit-border-radius: 3px;
+	border-radius        : 3px;
+}
+	
+div.slidebox div.content p.visit a:hover {
+	background           : #EEBB00;
+	color                : #666699;
+	text-decoration      : none;
+	-moz-border-radius   : 6px;
+	-khtml-border-radius : 6px;
+	-webkit-border-radius: 6px;
+	border-radius        : 6px;
+}
+
+p.visit {
+	position   : absolute;
+	top        : 162px;
+	font-weight: bold;
+}
+
+div.more {
+	width        : 417px;
+	margin       : 10px 179px;
+	background   : #9090bf;
+	border       : 1px solid white;
+	height       : 45px;
+	border-radius: 7px;
+}
+
+div.more:hover, #likebutton iframe:hover { background:#a0a0ef; }
+
+#likebutton iframe {
+	padding              : 10px 0 0 17px;
+	float                : left;
+	background           : #9090bf;
+	-moz-border-radius   : 6px;
+	-khtml-border-radius : 6px;
+	-webkit-border-radius: 6px;
+	border-radius        : 6px;
+	margin-bottom        : 20px;
+}
+
+#plugindevbook-cover {
+	display: inline;
+	float  : left;
+	padding: 0 5px 2px 0;
+}
+
+#display_controls span {
+	cursor : pointer;
+	color  : #dedede;
+	padding: 0px 5px;
+}
+
+#display_controls span:hover { color:white; }
+
+#display_controls  span.shown:before { content: attr(data-content) '\2611  '; }
+
+#display_controls  span.hidden:before { content: attr(data-content) '\2610  '; }
+
