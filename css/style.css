@@ -51,6 +51,7 @@ h2 {
 	line-height: 110%;
 	height     : 100%;
 	width      : 100%;
+	cursor     : default;
 }
 
 h3 {
@@ -62,7 +63,7 @@ h3 {
 
 h1 span, h2 span {padding:5px; display:block;}
 
-#smiley { display:inline; }
+#smiley { display:inline; cursor: none; }
 
 #smiley:hover {color:#EEBB00; display:inline;}
 
