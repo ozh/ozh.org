@@ -74,6 +74,7 @@
 			'desc' => 'When not coding and playing <span class="highlight">Quake</span>, I try to spend time far away from computers. One of the thing I love the most is... <span class="highlight">wine</span>. Oh my god so many celestial flavors to taste and discover!',
 			'type' => 'bio',
 		),
+		/**
 		'ozh4' => array(
 			'title'=> 'Underwater bubbles',
 			'img'  => 'ozh4.jpg',
@@ -81,6 +82,7 @@
 			'desc' => 'In the summer I usually say Good Bye to my computer and go for a <span class="highlight">zen dive</span>, deep down the big blue.</p><p>Best places I\'ve been to: the Red Sea and New Caledonia.',
 			'type' => 'bio',
 		),
+		/**/
 		'yourls' => array(
 			'title'=> 'YOURLS',
 			'img'  => 'yourls.jpg',
@@ -102,7 +104,7 @@
 			'desc' => 'I have founded and manage the biggest French speaking community site about <span class="highlight">Quake</span>.</p><p><em>Est. 1999</em>. Not for the noobz.',
 			'type' => 'project',
 		),
-		/*
+		/**
 		'lastfm' => array(
 			'title'=> 'last.fm',
 			'img'  => 'lastfm.jpg',
@@ -110,7 +112,14 @@
 			'desc' => 'My profile on <span class="highlight">Last.fm</span>, the best music site around, definitely.</p><p>Favorite band of all time: <span class="highlight">Suicidal Tendencies</span>.',
 			'type' => 'presence',
 		),
-		*/
+		/**/
+		'github' => array(
+			'title'=> 'Github',
+			'img'  => 'github.png',
+			'url'  => 'https://github.com/ozh',
+			'desc' => 'A lot of my code is on <span class="highlight">Github</span>, especially everything about <span class="highlight">YOURLS</span>. Follow me!',
+			'type' => 'presence',
+		),
 		'plugindevbook' => array(
 			'title'=> '<a href="http://amzn.to/plugindevbook"><img id="plugindevbook-cover" src="img/plugindevbook-cover.jpg" alt="WordPress Plugin Development"></a>',
 			'img'  => 'plugindevbook-logo.jpg',
