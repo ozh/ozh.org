@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
-    <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/ui/1.10.0/jquery-ui.js" type="text/javascript"></script>
     <script src="js/script.js" type="text/javascript"></script>
     <!--[if lte IE 9]>
     <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
@@ -185,7 +185,7 @@
 <div id="footer">
 
     <div id="likebutton" class="more">
-    <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fozh.org%2F&amp;layout=standard&amp;show_faces=false&amp;width=400&amp;action=like&amp;font=verdana&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:400px; height:35px; color:white;" allowTransparency="true"></iframe>
+    <iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fozh.org%2F&amp;layout=standard&amp;show_faces=false&amp;width=400&amp;action=like&amp;font=verdana&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:400px; height:35px; color:white;" allowTransparency="true"></iframe>
     </div>
 
     <div id="display_controls" class="more">
