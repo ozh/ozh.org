@@ -42,7 +42,7 @@
         'scrim' => array(
             'title'=> 'scr.im',
             'img'  => 'scrim.jpg',
-            'url'  => 'https://scr.im/',
+            'url'  => 'http://scr.im/',
             'desc' => 'A nice little site that transform your long ugly email address into a <span class="highlight">cute short URL</span> that is <span class="highlight">safe</span> and spambot-proof to share on Twitter, Facebook and other sites. Sold in 2010.',
             'type' => 'project',
         ),
